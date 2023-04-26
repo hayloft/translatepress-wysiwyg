@@ -1,15 +1,8 @@
 (function($) {
-    /*console.log(window.tpEditorApp);
-    window.tpEditorApp.$on('input', function() {
-        console.log('event');
-    });*/
-
     function fixParagraphs(html) {
         html = html.replaceAll(/<\/p><p>/ig, '<br>');
         html = html.replaceAll(/<p>/ig, '');
         html = html.replaceAll(/<\/p>/ig, '');
-
-        console.log(html);
 
         return html;
     }
