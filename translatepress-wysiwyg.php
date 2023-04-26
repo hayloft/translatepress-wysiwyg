@@ -7,7 +7,7 @@ Version: 1.0
 Author: Hayloft-IT GmbH
 Author URI: https://www.hayloft-it.ch
 Text Domain: translatepress-wysiwyg
-Description: Cache für bessere Performance von WordPress.
+Description: Adds WYSIWYG Editor for TranslatePress.
 */
 
 add_filter('trp-styles-for-editor', function($styles) {
